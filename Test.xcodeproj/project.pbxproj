@@ -16,6 +16,14 @@
 		010F83481AFA210C005159EF /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F83471AFA210C005159EF /* TestTests.m */; };
 		010F83591AFB4ED3005159EF /* CaptcureScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F83571AFB4ED3005159EF /* CaptcureScreenViewController.m */; };
 		010F835A1AFB4ED3005159EF /* CaptcureScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010F83581AFB4ED3005159EF /* CaptcureScreenViewController.xib */; };
+		010F835C1AFB607E005159EF /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F835B1AFB607E005159EF /* BaiduMapAPI.framework */; };
+		010F835E1AFB60B2005159EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F835D1AFB60B2005159EF /* CoreLocation.framework */; };
+		010F83601AFB60BA005159EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F835F1AFB60BA005159EF /* QuartzCore.framework */; };
+		010F83621AFB60C3005159EF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F83611AFB60C3005159EF /* OpenGLES.framework */; };
+		010F83641AFB60D1005159EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F83631AFB60D1005159EF /* SystemConfiguration.framework */; };
+		010F83661AFB60DC005159EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F83651AFB60DC005159EF /* CoreGraphics.framework */; };
+		010F83681AFB60E5005159EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F83671AFB60E5005159EF /* Security.framework */; };
+		010F836A1AFB6135005159EF /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 010F83691AFB6135005159EF /* mapapi.bundle */; };
 		F158B627541D8D9429E514D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1662C5C7517DB12BC7CAC2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +54,14 @@
 		010F83561AFB4ED3005159EF /* CaptcureScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptcureScreenViewController.h; sourceTree = "<group>"; };
 		010F83571AFB4ED3005159EF /* CaptcureScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptcureScreenViewController.m; sourceTree = "<group>"; };
 		010F83581AFB4ED3005159EF /* CaptcureScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaptcureScreenViewController.xib; sourceTree = "<group>"; };
+		010F835B1AFB607E005159EF /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI.framework; path = Test/BaiduMapAPI.framework; sourceTree = "<group>"; };
+		010F835D1AFB60B2005159EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		010F835F1AFB60BA005159EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		010F83611AFB60C3005159EF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		010F83631AFB60D1005159EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		010F83651AFB60DC005159EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		010F83671AFB60E5005159EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		010F83691AFB6135005159EF /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = Test/BaiduMapAPI.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
 		5459583E93D948410AF5A0EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EB1662C5C7517DB12BC7CAC2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE3E6288D3C9B4F1CF9582A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,6 +72,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010F83681AFB60E5005159EF /* Security.framework in Frameworks */,
+				010F83661AFB60DC005159EF /* CoreGraphics.framework in Frameworks */,
+				010F83641AFB60D1005159EF /* SystemConfiguration.framework in Frameworks */,
+				010F83621AFB60C3005159EF /* OpenGLES.framework in Frameworks */,
+				010F83601AFB60BA005159EF /* QuartzCore.framework in Frameworks */,
+				010F835E1AFB60B2005159EF /* CoreLocation.framework in Frameworks */,
+				010F835C1AFB607E005159EF /* BaiduMapAPI.framework in Frameworks */,
 				F158B627541D8D9429E514D2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +96,7 @@
 		010F831F1AFA210C005159EF = {
 			isa = PBXGroup;
 			children = (
+				010F83691AFB6135005159EF /* mapapi.bundle */,
 				010F832A1AFA210C005159EF /* Test */,
 				010F83441AFA210C005159EF /* TestTests */,
 				010F83291AFA210C005159EF /* Products */,
@@ -137,6 +161,13 @@
 		2666CBF4A1383C83E39E1D95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				010F83671AFB60E5005159EF /* Security.framework */,
+				010F83651AFB60DC005159EF /* CoreGraphics.framework */,
+				010F83631AFB60D1005159EF /* SystemConfiguration.framework */,
+				010F83611AFB60C3005159EF /* OpenGLES.framework */,
+				010F835F1AFB60BA005159EF /* QuartzCore.framework */,
+				010F835D1AFB60B2005159EF /* CoreLocation.framework */,
+				010F835B1AFB607E005159EF /* BaiduMapAPI.framework */,
 				EB1662C5C7517DB12BC7CAC2 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -234,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				010F835A1AFB4ED3005159EF /* CaptcureScreenViewController.xib in Resources */,
+				010F836A1AFB6135005159EF /* mapapi.bundle in Resources */,
 				010F83371AFA210C005159EF /* Main.storyboard in Resources */,
 				010F833C1AFA210C005159EF /* LaunchScreen.xib in Resources */,
 				010F83391AFA210C005159EF /* Images.xcassets in Resources */,
@@ -419,6 +451,10 @@
 			baseConfigurationReference = FFE3E6288D3C9B4F1CF9582A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Test",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +466,10 @@
 			baseConfigurationReference = 5459583E93D948410AF5A0EF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Test",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

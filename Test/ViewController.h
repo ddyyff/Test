@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BaiduMapAPI/BMapKit.h>//引入所有的头文件
 
 @interface ViewController : UIViewController
+{
+    BMKMapView* mapView;
+}
 
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;
 - (IBAction)captcureScreen:(id)sender;
