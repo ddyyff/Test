@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 保存文字到系统剪贴板
+    
+    [UIPasteboard generalPasteboard].string = @"测试文字";
+    
+    // 读取剪贴板中的文字
+    
+    NSLog(@"剪贴板中的文字：%@", [UIPasteboard generalPasteboard].string);
 }
 
 - (void)didReceiveMemoryWarning {
