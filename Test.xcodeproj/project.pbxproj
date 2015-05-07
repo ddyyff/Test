@@ -14,8 +14,8 @@
 		010F83391AFA210C005159EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010F83381AFA210C005159EF /* Images.xcassets */; };
 		010F833C1AFA210C005159EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010F833A1AFA210C005159EF /* LaunchScreen.xib */; };
 		010F83481AFA210C005159EF /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F83471AFA210C005159EF /* TestTests.m */; };
-		010F83541AFB4328005159EF /* CaptcureScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F83521AFB4328005159EF /* CaptcureScreenViewController.m */; };
-		010F83551AFB4328005159EF /* CaptcureScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010F83531AFB4328005159EF /* CaptcureScreenViewController.xib */; };
+		010F83591AFB4ED3005159EF /* CaptcureScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F83571AFB4ED3005159EF /* CaptcureScreenViewController.m */; };
+		010F835A1AFB4ED3005159EF /* CaptcureScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010F83581AFB4ED3005159EF /* CaptcureScreenViewController.xib */; };
 		F158B627541D8D9429E514D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1662C5C7517DB12BC7CAC2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,9 +43,9 @@
 		010F83411AFA210C005159EF /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		010F83461AFA210C005159EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		010F83471AFA210C005159EF /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
-		010F83511AFB4328005159EF /* CaptcureScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptcureScreenViewController.h; path = ../CaptcureScreenViewController.h; sourceTree = "<group>"; };
-		010F83521AFB4328005159EF /* CaptcureScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptcureScreenViewController.m; path = ../CaptcureScreenViewController.m; sourceTree = "<group>"; };
-		010F83531AFB4328005159EF /* CaptcureScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CaptcureScreenViewController.xib; path = ../CaptcureScreenViewController.xib; sourceTree = "<group>"; };
+		010F83561AFB4ED3005159EF /* CaptcureScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptcureScreenViewController.h; sourceTree = "<group>"; };
+		010F83571AFB4ED3005159EF /* CaptcureScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptcureScreenViewController.m; sourceTree = "<group>"; };
+		010F83581AFB4ED3005159EF /* CaptcureScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaptcureScreenViewController.xib; sourceTree = "<group>"; };
 		5459583E93D948410AF5A0EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EB1662C5C7517DB12BC7CAC2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE3E6288D3C9B4F1CF9582A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		010F832A1AFA210C005159EF /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				010F83511AFB4328005159EF /* CaptcureScreenViewController.h */,
-				010F83521AFB4328005159EF /* CaptcureScreenViewController.m */,
-				010F83531AFB4328005159EF /* CaptcureScreenViewController.xib */,
+				010F83561AFB4ED3005159EF /* CaptcureScreenViewController.h */,
+				010F83571AFB4ED3005159EF /* CaptcureScreenViewController.m */,
+				010F83581AFB4ED3005159EF /* CaptcureScreenViewController.xib */,
 				010F832F1AFA210C005159EF /* AppDelegate.h */,
 				010F83301AFA210C005159EF /* AppDelegate.m */,
 				010F83321AFA210C005159EF /* ViewController.h */,
@@ -233,9 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010F835A1AFB4ED3005159EF /* CaptcureScreenViewController.xib in Resources */,
 				010F83371AFA210C005159EF /* Main.storyboard in Resources */,
 				010F833C1AFA210C005159EF /* LaunchScreen.xib in Resources */,
-				010F83551AFB4328005159EF /* CaptcureScreenViewController.xib in Resources */,
 				010F83391AFA210C005159EF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,9 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				010F83341AFA210C005159EF /* ViewController.m in Sources */,
+				010F83591AFB4ED3005159EF /* CaptcureScreenViewController.m in Sources */,
 				010F83311AFA210C005159EF /* AppDelegate.m in Sources */,
 				010F832E1AFA210C005159EF /* main.m in Sources */,
-				010F83541AFB4328005159EF /* CaptcureScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
