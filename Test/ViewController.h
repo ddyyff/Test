@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;
+- (IBAction)captcureScreen:(id)sender;
 
 @end
 
